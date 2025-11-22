@@ -49,21 +49,6 @@ Fetch API
 
 Virtual Environment (venv)
 
-Project Structure
-SmartShop AI/
-│
-├── backend-python/       # Flask backend with Groq integration
-│   ├── app.py
-│   ├── .env
-│   └── venv/
-│
-└── smartshop-ai/         # React frontend
-    ├── src/
-    │   ├── api/gemini.ts (Groq request helper)
-    │   ├── components/
-    │   ├── data/products.ts
-    │   └── App.tsx
-
 How It Works
 
 User enters a query → “phone under 30000”
